@@ -1,5 +1,4 @@
 section {
-  max-height: 100dvh;
   min-height: 100dvh;
   padding: 8px;
   margin: 0;
@@ -8,7 +7,6 @@ section {
   border-left: 0;
   border-right: 0;
   border-color: chartreuse;
-  overflow-y: scroll;
 }
 
 .title {
