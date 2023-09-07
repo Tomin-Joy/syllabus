@@ -1,0 +1,85 @@
+section {
+  max-height: 100dvh;
+  min-height: 100dvh;
+  padding: 8px;
+  margin: 0;
+  border-style: dotted;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: chartreuse;
+  overflow-y: scroll;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-left: 40px;
+  color: rgb(2, 205, 6);
+}
+.tBtn,
+.cBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 160px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 188, 29);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+.cBtn {
+  right: 30px;
+  display: block;
+  background-color: rgb(0, 121, 8);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  color: chartreuse;
+}
+.paraDiv {
+  justify-content: center;
+  display: flex;
+}
+.para {
+  width: 90%;
+}
+.list {
+  font-size: 26px;
+  font-weight: 100;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+a:hover {
+  color: chartreuse;
+}
+li {
+  margin: 10px;
+}
+
+.card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 90dvh;
+}
+.card-body{
+    width: 60%;
+    background-color: rgba(128, 255, 0, 0.146);
+    border-radius: 10px;
+}
