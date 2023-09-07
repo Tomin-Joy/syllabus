@@ -15,6 +15,6 @@ function toTop() {
   a.click();
 }
 function toCode(){
-    window.open("https://www.google.com");
+    window.open("https://github.com/Tomin-Joy/syllabus");
     console.log("hi");
 }
