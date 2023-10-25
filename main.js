@@ -2,6 +2,7 @@ let mybutton = document.getElementById("tBtn");
 window.onscroll = function () {
   scroll();
 };
+
 function scroll() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
